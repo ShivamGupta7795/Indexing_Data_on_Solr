@@ -2,7 +2,7 @@
 from datetime import tzinfo
 
 # Replace the API_KEY and API_SECRET with your application's key and secret.
-auth = tweepy.AppAuthHandler('r6CJLKh9yzPaaVtsjW0ExzIwP','wraTjp01I8pRdWiTVjGep6IDqf1OzxZXy5al4C1vDrbZQkXlYS')
+auth = tweepy.AppAuthHandler('your key','your key')
  
 api = tweepy.API(auth, wait_on_rate_limit=True,
                    wait_on_rate_limit_notify=True)
